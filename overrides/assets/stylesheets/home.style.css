@@ -1,0 +1,13 @@
+.md-header:not(.md-header--shadow) {
+    background-color: initial;
+    transition: background-color 125ms, transform 125ms cubic-bezier(.1,.7,.1,1), box-shadow 0ms;
+}
+
+.md-header__option {
+    display: flex
+;
+    flex-shrink: 0;
+    max-width: 100%;
+    transition: max-width 0ms .25s, opacity .25s .25s;
+    white-space: nowrap;
+}

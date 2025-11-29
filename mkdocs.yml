@@ -1,0 +1,110 @@
+site_name: excel-playbook
+site_author: Dong Nguyen Luong Dinh
+site_url: https://dongnguyenluongdinh.github.io/excel-playbook/
+repo_name: dongnguyenluongdinh/excel-playbook
+repo_url: https://github.com/dongnguyenluongdinh/excel-playbook
+
+site_description: >-
+  excel-playbook makes Excel knowledge structured, portable, and easy to share.
+
+theme: 
+  name: material
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  features:
+  - navigation.top
+  - navigation.footer
+  - navigation.path
+  - navigation.tabs
+  - navigation.sections
+  - navigation.tracking
+  - navigation.indexes
+  - search.highlight
+  - search.share
+  - search.suggest
+  - content.code.annotate
+  - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  
+nav:
+  - Home: 
+    - index.md
+  - Playbooks:
+    - Pivot Table: excel/[howto]_pivot_table.md
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_themed: false
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dongnguyenluongdinh
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dongnguyenluongdinh/
+
+
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
