@@ -179,7 +179,7 @@ Find the `Sales` value for `OrderID 1002`.
 
 The formula searches `A2:A4` for `1002` and returns `800` from `E2:E6`.
 
-#### find Category by Product
+#### to find Category by Product
 
 Find the `Category` value for all `Product` has the term `Des`. 
 
@@ -227,7 +227,7 @@ Find the `Category` value for all `Product` has the term `Des`.
 5.  [Optional](#){ .md-tag }  
     `match_mode`: Controls how matching is performed. Here `2` enables wildcard matching (`*` for multiple characters, `?` for a single character).  
 
-The formula searches `C2:C6` for any product beginning with `"Des"`, finds `"Desk"`, and returns `"Furniture"` from `D2:D6`.
+The formula searches `C2:C6` for any product beginning with `"Desk"` and returns `"Furniture"` from `D2:D6`.
 
 
 
