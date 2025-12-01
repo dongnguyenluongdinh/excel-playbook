@@ -4,10 +4,14 @@
 
 This site is a collection of practical Excel techniques, organized in Markdown and powered by MkDocs Material. Whether you're a beginner or a seasoned analyst, you'll find clear examples, reusable snippets, and best practices to help you work smarter in Excel.
 
+---
+
 ## What You'll Find Here
 
 - Basic tutorials 
 - Tips for organizing and analyzing data effectively   
+
+---
 
 ## How to Search
 

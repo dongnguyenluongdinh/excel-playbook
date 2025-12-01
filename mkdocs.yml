@@ -24,6 +24,7 @@ theme:
   - search.suggest
   - content.code.annotate
   - toc.follow
+  - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -45,6 +46,7 @@ nav:
     - index.md
   - Playbooks:
     - Pivot Table: excel/[howto]_pivot_table.md
+    - XLOOKUP: excel/[howto]_xlookup.md
 
 plugins:
   - search:

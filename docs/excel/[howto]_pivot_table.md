@@ -1,5 +1,4 @@
-# How to use Pivot Table in Excel
-
+# How to use Pivot Table 
 `Pivot Table` in `Excel` allow you to quickly summarize, analyze, explore, and present large amounts of data. They are useful for creating reports and identifying trends without complex formulas.
 
 ---
