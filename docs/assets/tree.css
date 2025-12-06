@@ -1,0 +1,36 @@
+.tree-container {
+  background: #0b0f12;
+  color: #cfd8dc;
+  font-family: "SF Mono", "Menlo", "Consolas", monospace;
+ 
+  font-size: clamp(12px, 2vw, 18px);
+  line-height: 1.2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 60vh;  
+  padding: 1rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.tree-container pre {
+  margin: 0;
+  white-space: pre;
+  max-width: 100%;
+  overflow-x: auto;   
+}
+
+.tree-container .green { color: #59c173; }
+.tree-container .bright { color: #9cff7a; }
+.tree-container .red { color: #ff6565; }
+.tree-container .blue { color: #6fb1ff; }
+.tree-container .magenta { color: #e58cff; }
+.tree-container .yellow { color: #ffd166; }
+.tree-container .white { color: #e6f1ff; }
+
+.tree-container .sparkle {
+  filter: drop-shadow(0 0 0.4em rgba(255,255,255,0.7));
+}

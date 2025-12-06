@@ -1,8 +1,12 @@
-# Welcome to excel-playbook
+# Welcome to excel-playbook🎄
 
-`excel-playbook` makes Excel knowledge structured, portable, and easy to share.
+`excel-playbook` makes `Excel` knowledge structured, portable, and easy to share.
 
-This site is a collection of practical Excel techniques, organized in Markdown and powered by MkDocs Material. Whether you're a beginner or a seasoned analyst, you'll find clear examples, reusable snippets, and best practices to help you work smarter in Excel.
+This site is a collection of practical `Excel` techniques, organized in Markdown and powered by `MkDocs Material`. Whether you're a beginner or a seasoned analyst, you'll find clear examples, reusable snippets, and best practices to help you work smarter in `Excel`.
+
+<div class="tree-container">
+  <pre id="tree"></pre>
+</div>
 
 ---
 

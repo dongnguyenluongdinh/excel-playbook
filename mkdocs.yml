@@ -76,6 +76,11 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/dongnguyenluongdinh/
 
+extra_css:
+  - assets/tree.css
+
+extra_javascript:
+  - assets/tree.js
 
 
 markdown_extensions:
