@@ -50,8 +50,6 @@ function initTree() {
     ")": "white",
     "⟆": "white",
     "=": "white",
-    "o": "white",
-    "O": "white",
     ".": "white",
     "_": "white"
   };
